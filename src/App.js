@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
+import logo from "./img/logoofc.png";
 import "./App.css";
 
-function Header({ setSection }) {
+function Header({ setSection, section }) {
   return (
     <header className="App-header">
       <div className="left">
@@ -10,11 +10,36 @@ function Header({ setSection }) {
         <span>EcoLoop</span>
       </div>
       <div className="right">
-        <button onClick={() => setSection("inicio")}>Início</button>
-        <button onClick={() => setSection("servicos")}>Serviços</button>
-        <button onClick={() => setSection("sobre")}>Sobre Nós</button>
-        <button onClick={() => setSection("contato")}>Contato</button>
-        <button onClick={() => setSection("video")}>Vídeo</button>
+        <button
+          className={section === "inicio" ? "active" : ""}
+          onClick={() => setSection("inicio")}
+        >
+          Início
+        </button>
+        <button
+          className={section === "servicos" ? "active" : ""}
+          onClick={() => setSection("servicos")}
+        >
+          Serviços
+        </button>
+        <button
+          className={section === "sobre" ? "active" : ""}
+          onClick={() => setSection("sobre")}
+        >
+          Sobre Nós
+        </button>
+        <button
+          className={section === "contato" ? "active" : ""}
+          onClick={() => setSection("contato")}
+        >
+          Contato
+        </button>
+        <button
+          className={section === "video" ? "active" : ""}
+          onClick={() => setSection("video")}
+        >
+          Vídeo
+        </button>
       </div>
     </header>
   );
@@ -85,7 +110,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header setSection={setSection} />
+      <Header setSection={setSection} section={section} />
       {section === "inicio" ? <MainContent /> : content}
       {section === "inicio" && <Footer />}
     </div>

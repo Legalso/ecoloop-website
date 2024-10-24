@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-image: url("./img/FUNDO.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -12,8 +19,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #282c34;
-  color: white;
+  color: #5ac65e;
+  font-weight: bold;
 }
 
 .App-header .left {
@@ -29,16 +36,23 @@
 .App-header .right button {
   margin: 0 10px;
   padding: 10px 20px;
-  background-color: #61dafb;
-  border: none;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #5ac65e;
   cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave */
+}
+
+.App-header .right button:hover,
+.App-header .right button.active {
+  background-color: #5ac65e; /* Fundo verde ao passar o mouse ou se ativo */
 }
 
 .App-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh; /* Ajuste conforme necessário */
+  flex-grow: 1; /* Para ocupar o espaço restante */
 }
 
 .content-container {
@@ -48,19 +62,26 @@
 
 .App-title {
   font-size: 4rem; /* Aumente o tamanho do texto conforme necessário */
-  margin-left: 20px; /* Espaçamento entre a imagem e o texto */
+  margin-left: 0px; /* Espaçamento entre a imagem e o texto */
+  color: #5ac65e;
 }
 
 .App-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* background-color: #282c34; */
-  color: black;
+  color: white;
   padding: 20px 0;
+  font-size: 2rem;
 }
 
 .App-section {
   padding: 20px;
   font-size: 1.5rem;
+  background-color: rgba(
+    40,
+    44,
+    52,
+    0.8
+  ); /* Semi-transparente para ver o fundo */
+  color: white;
+  margin: 20px;
+  border-radius: 10px;
 }
