@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Legalso/ecoloop-website/static/css/main.05a47659.css",
+    "main.css": "/Legalso/ecoloop-website/static/css/main.fd342ea4.css",
     "main.js": "/Legalso/ecoloop-website/static/js/main.ac37bf91.js",
     "static/js/453.2d2c5996.chunk.js": "/Legalso/ecoloop-website/static/js/453.2d2c5996.chunk.js",
     "static/media/logoofc.png": "/Legalso/ecoloop-website/static/media/logoofc.be1239341e1081e86569.png",
@@ -13,12 +13,12 @@
     "static/media/autonuke.png": "/Legalso/ecoloop-website/static/media/autonuke.7b2322ee46f67323b108.png",
     "static/media/WhatsApp_Image_2024-10-28_at_21.01.58.jpeg": "/Legalso/ecoloop-website/static/media/WhatsApp_Image_2024-10-28_at_21.01.58.ff0cbf31cec6d33976e1.jpeg",
     "index.html": "/Legalso/ecoloop-website/index.html",
-    "main.05a47659.css.map": "/Legalso/ecoloop-website/static/css/main.05a47659.css.map",
+    "main.fd342ea4.css.map": "/Legalso/ecoloop-website/static/css/main.fd342ea4.css.map",
     "main.ac37bf91.js.map": "/Legalso/ecoloop-website/static/js/main.ac37bf91.js.map",
     "453.2d2c5996.chunk.js.map": "/Legalso/ecoloop-website/static/js/453.2d2c5996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a47659.css",
+    "static/css/main.fd342ea4.css",
     "static/js/main.ac37bf91.js"
   ]
 }
