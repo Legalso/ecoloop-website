@@ -1,9 +1,9 @@
 import React from "react";
-import person1 from "./img/autonuke.png";
-import person2 from "./img/autonuke.png";
-import person3 from "./img/autonuke.png";
-import person4 from "./img/autonuke.png";
-import person5 from "./img/autonuke.png";
+import person1 from "./img/Caio.png";
+import person2 from "./img/Matheus.png";
+import person3 from "./img/Belle.png";
+import person4 from "./img/Pedro.png";
+import person5 from "./img/Ítalo.png";
 import equipeEcoloop from "./img/WhatsApp_Image_2024-10-28_at_21.01.58.jpeg";
 import jovensColaborativos from "./img/processo.png";
 
