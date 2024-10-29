@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import logo from "./img/logoofc.png";
 import "./App.css";
 import "./Responsive-App.css";
+import SobreNos from "./SobreNos";
+import Servicos from "./Servicos";
 
 function Header({ setSection, section }) {
   return (
@@ -29,12 +31,12 @@ function Header({ setSection, section }) {
         >
           Sobre Nós
         </button>
-        <button
+        {/* <button
           className={section === "contato" ? "active" : ""}
           onClick={() => setSection("contato")}
         >
           Contato
-        </button>
+        </button> */}
         <button
           className={section === "video" ? "active" : ""}
           onClick={() => setSection("video")}
@@ -69,17 +71,25 @@ function Inicio() {
   return <div className="App-section">Bem-vindo à página inicial!</div>;
 }
 
-function Servicos() {
-  return <div className="App-section">Nossos serviços incluem...</div>;
+function ServicosSection() {
+  return (
+    <div className="App-section">
+      <Servicos />
+    </div>
+  );
 }
 
 function Sobre() {
-  return <div className="App-section">Sobre nós...</div>;
+  return (
+    <div className="App-section">
+      <SobreNos />
+    </div>
+  );
 }
 
-function Contato() {
-  return <div className="App-section">Entre em contato conosco...</div>;
-}
+// function Contato() {
+//   return <div className="App-section">Entre em contato conosco...</div>;
+// }
 
 function Video() {
   return <div className="App-section">Assista ao nosso vídeo...</div>;
@@ -99,9 +109,9 @@ function App() {
     case "sobre":
       content = <Sobre />;
       break;
-    case "contato":
-      content = <Contato />;
-      break;
+    // case "contato":
+    //   content = <Contato />;
+    //   break;
     case "video":
       content = <Video />;
       break;

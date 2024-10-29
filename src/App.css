@@ -1,3 +1,7 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
   background-image: url("./img/FUNDO.PNG");
@@ -91,4 +95,70 @@
   color: white;
   margin: 20px;
   border-radius: 10px;
+}
+
+.sobre-nos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.sobre-nos-text {
+  max-width: 800px;
+  text-align: justify;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service-item {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.service-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.service-content {
+  flex: 1;
+}
+
+.service-item h3 {
+  margin-top: 0;
+}
+
+.service-item p {
+  margin-bottom: 0;
 }
