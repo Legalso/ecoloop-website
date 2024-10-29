@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "./img/logoofc.png";
 import "./App.css";
+import "./Responsive-App.css";
 
 function Header({ setSection, section }) {
   return (
