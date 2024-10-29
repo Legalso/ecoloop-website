@@ -122,12 +122,19 @@ body {
 }
 
 .sobre-nos-text {
-  max-width: 800px;
+  max-width: 1600px;
   text-align: justify;
   padding: 20px;
   background-color: black;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nos-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .services-container {
@@ -146,8 +153,8 @@ body {
 }
 
 .service-img {
-  width: 100px;
-  height: 100px;
+  width: 600px;
+  height: 500px;
   margin-right: 20px;
 }
 
