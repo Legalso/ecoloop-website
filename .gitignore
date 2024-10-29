@@ -28,6 +28,9 @@ sketch
 # testing
 /coverage
 
+# production
+/build
+
 # misc
 .DS_Store
 .env.local
@@ -41,6 +44,7 @@ yarn-error.log*
 
 .idea/
 .vscode/
+build
 .npm/ 
 yarn.lock
 package-lock
