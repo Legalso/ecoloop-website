@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecoloop-website/static/css/main.781c4c60.css",
+    "main.css": "/ecoloop-website/static/css/main.04d2c51b.css",
     "main.js": "/ecoloop-website/static/js/main.9534d375.js",
     "static/js/453.2d2c5996.chunk.js": "/ecoloop-website/static/js/453.2d2c5996.chunk.js",
     "static/media/logoofc.png": "/ecoloop-website/static/media/logoofc.be1239341e1081e86569.png",
@@ -17,12 +17,12 @@
     "static/media/images_2.jpg": "/ecoloop-website/static/media/images_2.5138ac5d6219a3e50c30.jpg",
     "static/media/images_1.jpg": "/ecoloop-website/static/media/images_1.f83a0071adf553937971.jpg",
     "index.html": "/ecoloop-website/index.html",
-    "main.781c4c60.css.map": "/ecoloop-website/static/css/main.781c4c60.css.map",
+    "main.04d2c51b.css.map": "/ecoloop-website/static/css/main.04d2c51b.css.map",
     "main.9534d375.js.map": "/ecoloop-website/static/js/main.9534d375.js.map",
     "453.2d2c5996.chunk.js.map": "/ecoloop-website/static/js/453.2d2c5996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.781c4c60.css",
+    "static/css/main.04d2c51b.css",
     "static/js/main.9534d375.js"
   ]
 }
