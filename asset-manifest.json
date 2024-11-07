@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecoloop-website/static/css/main.5d20efd8.css",
-    "main.js": "/ecoloop-website/static/js/main.ee9d4871.js",
+    "main.css": "/ecoloop-website/static/css/main.781c4c60.css",
+    "main.js": "/ecoloop-website/static/js/main.9534d375.js",
     "static/js/453.2d2c5996.chunk.js": "/ecoloop-website/static/js/453.2d2c5996.chunk.js",
     "static/media/logoofc.png": "/ecoloop-website/static/media/logoofc.be1239341e1081e86569.png",
     "static/media/FUNDO.PNG": "/ecoloop-website/static/media/FUNDO.d0ee3d73d62f9886efa2.PNG",
@@ -9,16 +9,20 @@
     "static/media/Pedro.png": "/ecoloop-website/static/media/Pedro.d0620f24ab5778786127.png",
     "static/media/Caio.png": "/ecoloop-website/static/media/Caio.ac21f81d81ce7de733d3.png",
     "static/media/Matheus.png": "/ecoloop-website/static/media/Matheus.715a7f84f107aaac1ef6.png",
-    "static/media/processo.png": "/ecoloop-website/static/media/processo.f0e5a65ff27a16288795.png",
     "static/media/autonuke.png": "/ecoloop-website/static/media/autonuke.7b2322ee46f67323b108.png",
     "static/media/WhatsApp_Image_2024-10-28_at_21.01.58.jpeg": "/ecoloop-website/static/media/WhatsApp_Image_2024-10-28_at_21.01.58.ff0cbf31cec6d33976e1.jpeg",
+    "static/media/logo ofc.png": "/ecoloop-website/static/media/logo ofc.bbaa97cbf3c2892b1f4a.png",
+    "static/media/Conceito_de_ecologia_tecnologica_com_holograma___Vetor_Gratis.jpg": "/ecoloop-website/static/media/Conceito_de_ecologia_tecnologica_com_holograma___Vetor_Gratis.3a3e724424fb8782c9c6.jpg",
+    "static/media/jpg": "/ecoloop-website/static/media/9686e717c7ce6e05ba4c72297b9aff4a.ead2a39977cf641fcfe4.jpg",
+    "static/media/images_2.jpg": "/ecoloop-website/static/media/images_2.5138ac5d6219a3e50c30.jpg",
+    "static/media/images_1.jpg": "/ecoloop-website/static/media/images_1.f83a0071adf553937971.jpg",
     "index.html": "/ecoloop-website/index.html",
-    "main.5d20efd8.css.map": "/ecoloop-website/static/css/main.5d20efd8.css.map",
-    "main.ee9d4871.js.map": "/ecoloop-website/static/js/main.ee9d4871.js.map",
+    "main.781c4c60.css.map": "/ecoloop-website/static/css/main.781c4c60.css.map",
+    "main.9534d375.js.map": "/ecoloop-website/static/js/main.9534d375.js.map",
     "453.2d2c5996.chunk.js.map": "/ecoloop-website/static/js/453.2d2c5996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d20efd8.css",
-    "static/js/main.ee9d4871.js"
+    "static/css/main.781c4c60.css",
+    "static/js/main.9534d375.js"
   ]
 }
