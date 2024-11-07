@@ -6,6 +6,7 @@ import person4 from "./img/Pedro.png";
 import person5 from "./img/Ítalo.png";
 import logoOFC from "./img/logo ofc.png"
 import equipeEcoloop from "./img/WhatsApp_Image_2024-10-28_at_21.01.58.jpeg";
+import "./Responsive-App.css";
 
 function SobreNos() {
   const team = [

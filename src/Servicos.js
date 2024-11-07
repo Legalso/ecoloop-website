@@ -5,6 +5,7 @@ import img3 from "./img/Conceito_de_ecologia_tecnologica_com_holograma___Vetor_G
 import img4 from "./img/images.jpg";
 import img5 from "./img/images_1.jpg";
 import img6 from "./img/images_2.jpg";
+import "./Responsive-App.css";
 
 function Servicos() {
   const services = [

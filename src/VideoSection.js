@@ -1,6 +1,7 @@
 import React from "react";
 import Video from "./Video"; 
 import "./Video.css"; 
+import "./Responsive-App.css"
 
 const VideoSection = () => {
   return (
