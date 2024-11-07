@@ -1,3 +1,6 @@
+// npm run start para rodar localmente
+// npm run deploy para buildar pra o github pages
+
 import React, { useState } from "react";
 import logo from "./img/logoofc.png";
 import "./App.css";
