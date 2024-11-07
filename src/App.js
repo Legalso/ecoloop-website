@@ -4,6 +4,7 @@ import "./App.css";
 import "./Responsive-App.css";
 import SobreNos from "./SobreNos";
 import Servicos from "./Servicos";
+import VideoSection from "./VideoSection"; // Importe o componente VideoSection
 
 function Header({ setSection, section }) {
   return (
@@ -31,17 +32,11 @@ function Header({ setSection, section }) {
         >
           Sobre Nós
         </button>
-        {/* <button
-          className={section === "contato" ? "active" : ""}
-          onClick={() => setSection("contato")}
-        >
-          Contato
-        </button> */}
         <button
           className={section === "video" ? "active" : ""}
           onClick={() => setSection("video")}
         >
-          Vídeo
+          Vídeos
         </button>
       </div>
     </header>
@@ -87,14 +82,6 @@ function Sobre() {
   );
 }
 
-// function Contato() {
-//   return <div className="App-section">Entre em contato conosco...</div>;
-// }
-
-function Video() {
-  return <div className="App-section">Assista ao nosso vídeo...</div>;
-}
-
 function App() {
   const [section, setSection] = useState("inicio");
 
@@ -104,16 +91,13 @@ function App() {
       content = <Inicio />;
       break;
     case "servicos":
-      content = <Servicos />;
+      content = <ServicosSection />;
       break;
     case "sobre":
       content = <Sobre />;
       break;
-    // case "contato":
-    //   content = <Contato />;
-    //   break;
     case "video":
-      content = <Video />;
+      content = <VideoSection />;
       break;
     default:
       content = <Inicio />;

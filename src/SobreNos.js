@@ -4,8 +4,8 @@ import person2 from "./img/Matheus.png";
 import person3 from "./img/Belle.png";
 import person4 from "./img/Pedro.png";
 import person5 from "./img/Ítalo.png";
+import logoOFC from "./img/logo ofc.png"
 import equipeEcoloop from "./img/WhatsApp_Image_2024-10-28_at_21.01.58.jpeg";
-import jovensColaborativos from "./img/processo.png";
 
 function SobreNos() {
   const team = [
@@ -18,16 +18,17 @@ function SobreNos() {
 
   return (
     <div className="sobre-nos">
-      <div className="team-container">
-        {team.map((member, index) => (
-          <div key={index} className="team-member">
-            <img src={member.img} alt={member.name} className="team-photo" />
-            <h3>{member.name}</h3>
-            <p>{member.role}</p>
-          </div>
-        ))}
-      </div>
       <div className="sobre-nos-text">
+        <div className="team-container">
+          {team.map((member, index) => (
+            <div key={index} className="team-member">
+              <img src={member.img} alt={member.name} className="team-photo" />
+              <h3>{member.name}</h3>
+              {/* <p>{member.role}</p> */}
+            </div>
+          ))}
+        </div>
+        <h1 className="ecoloop-title">ECOLOOP</h1>
         <p>
           A Ecoloop Soluções é um projeto acadêmico criado por jovens estudantes
           de tecnologia da Universidade São Judas Tadeu, no campus Santana, SP.
@@ -35,11 +36,7 @@ function SobreNos() {
           e sustentabilidade. Nosso sonho é ver essa iniciativa crescer e se
           transformar em uma startup capaz de fazer a diferença no mundo.
         </p>
-        <img
-          src={equipeEcoloop}
-          alt="Ecoloop em ação"
-          className="sobre-nos-image"
-        />
+        <img src={logoOFC} alt="Ecoloop" className="sobre-nos-image" />
         <p>
           Atualmente, estamos aplicando parte de nosso projeto no Ministério
           Público Federal (MPF), onde colocamos em prática nossas soluções para
@@ -48,8 +45,8 @@ function SobreNos() {
           oferecer soluções mais conscientes para o uso de recursos.
         </p>
         <img
-          src={jovensColaborativos}
-          alt="Jovens em um ambiente colaborativo"
+          src={equipeEcoloop}
+          alt="EcoLoop em ação"
           className="sobre-nos-image"
         />
         <p>
